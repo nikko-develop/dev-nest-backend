@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+
 import { HealthcheckController } from './HealtChecker.controller';
 
 const httpControllers = [HealthcheckController];

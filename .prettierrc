@@ -8,12 +8,5 @@
 	"arrowParens": "always",
 	"bracketSpacing": true,
 	"endOfLine": "lf",
-	"overrides": [
-		{
-			"files": "*.ts",
-			"options": {
-				"parser": "typescript"
-			}
-		}
-	]
+	"parser": "typescript"
 }
