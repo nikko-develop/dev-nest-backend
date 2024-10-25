@@ -58,6 +58,7 @@ export default [
 		},
 
 		rules: {
+			'no-unused-vars': 'off',
 			'no-prototype-builtins': 'off',
 			'import/prefer-default-export': 'off',
 			'import/no-default-export': 'error',
@@ -83,7 +84,6 @@ export default [
 			],
 
 			eqeqeq: ['error', 'always'],
-			'no-unused-vars': 'error',
 
 			'import/order': [
 				'error',
